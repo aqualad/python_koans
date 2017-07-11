@@ -12,7 +12,7 @@ class AboutTrueAndFalse(Koan):
             return 'false stuff'
 
     def test_true_is_treated_as_true(self):
-        self.assertEqual(__, self.truth_value(True))
+        self.assertEqual('true stuff', self.truth_value(True))
 
     def test_false_is_treated_as_false(self):
         self.assertEqual(__, self.truth_value(False))
